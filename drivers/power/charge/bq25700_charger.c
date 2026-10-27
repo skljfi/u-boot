@@ -199,7 +199,7 @@ static int bq25700_get_pd_output_val(struct bq25700 *charger,
 	*vol = pd_data.voltage;
 	*cur = pd_data.current;
 
-	return 0
+	return 0;
 #else
 	return -ENOSYS;
 #endif
